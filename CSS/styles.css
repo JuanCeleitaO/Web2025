@@ -1,15 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: red;
 }
-.container{
-    background-color: rgb(red, green, blue);
+
+#tituloRojo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+    color: #af0606;
+    letter-spacing: 0.5px;
+    text-align: justify;
+    padding: 10px 20px;
+    background-color: #f9f9f9;
+
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
 }
-.img-carousel {
-    object-fit: cover; /* Asegura que la imagen cubra el área sin deformarse */
-    height: 400px; /* Ajusta la altura que desees */
-  }
+
+#principal {
+    margin: 10px;
+}
+
+.container {
+    background-color: rgb(240, 240, 240);
+}
+
+#imgMinEdu {
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.nav-item {
+    margin: 5px;
+}
+
+.navbar-nav {
+    gap: 10px;
+}
+
+#estiloP {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+    color: #333;
+    letter-spacing: 0.5px;
+    text-align: justify;
+    padding: 10px 20px;
+    background-color: #f9f9f9;
+    border-left: 4px solid #1e88e5;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+
+.card {
+    margin: 7px !important;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.espacio {
+    margin: 40px;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.lista-enlaces {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lista-enlaces li {
+    margin-bottom: 10px;
+}
+
+.lista-enlaces a {
+    color: green;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.lista-enlaces a:hover {
+    color: darkgreen;
+    text-decoration: underline;
+}
